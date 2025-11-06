@@ -1,8 +1,8 @@
-# Platform Engineering Lab (Cloud-Native Platform)
+## 🧩 Cloud-Native Platform Engineering Lab
 
-## 🚀 Overview: Declarative Enterprise Kubernetes Operations
+Declarative Kubernetes and Terraform lab demonstrating enterprise-grade hybrid operations across GCP and ProxMox. Built and automated multi-tenant Kubernetes with Istio, Prometheus, and Zero Trust controls.
 
-This SRE portfolio demonstrates enterprise-grade operations using Terraform, Kubernetes, Prometheus, Istio, and GCP. It focuses on IaC, security, and hybrid automation—reducing operational overhead, accelerating deployment velocity, and optimizing cloud costs.
+⏱️ Terraform cut provisioning 6 h → 5 m · 🧩 3-namespace multi-tenant clusters · 🔐 SSH-free Zero Trust · 📊 Prometheus observability and Istio service mesh
 
 ---
 
