@@ -1,8 +1,8 @@
-## 🧩 Cloud-Native Platform Engineering Lab
+🧩 Cloud-Native Platform Engineering Lab
 
-Declarative Kubernetes and Terraform lab demonstrating enterprise-grade hybrid operations across GCP and ProxMox. Built and automated multi-tenant Kubernetes with Istio, Prometheus, and Zero Trust controls.
+Declarative Kubernetes and Terraform lab demonstrating hybrid operations across GCP and on-prem ProxMox via Minikube. Built and validated entirely on local Minikube for proof-of-concept before scaling to GKE in future iterations.
 
-⏱️ Terraform cut provisioning 6 h → 5 m · 🧩 3-namespace multi-tenant clusters · 🔐 SSH-free Zero Trust · 📊 Prometheus observability and Istio service mesh
+⏱️ Terraform cut provisioning 6 h → 5 m · 🧩 3-namespace multi-tenant deployment on bare-metal Ubuntu · 🔐 SSH-free Zero Trust · 📊 Prometheus observability and Istio service mesh
 
 ---
 
@@ -29,7 +29,7 @@ Detailed, timestamped documentation of all operational procedures, troubleshooti
 
 * **Reduced infra provisioning time by 99% (6h → 5m)** via automated Terraform deployment.
 
-* Standardized **multi-tenant Kubernetes across 3 namespaces** for 10+ isolated applications.
+* Standardized multi-namespace Kubernetes deployment in Minikube simulating production-grade isolation and scaling.
 
 * Achieved **100% CI/CD pipeline success** rate using GitHub Actions for automated deployments.
 
